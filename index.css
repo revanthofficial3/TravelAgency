@@ -1,3 +1,12 @@
+@font-face {
+    font-family: barqish;
+    src: url(./fonts/Barqish.ttf);
+}
+@font-face
+{
+    font-family:homoarak;
+    src:url(./fonts/homoarakhn/HOMOARAK.TTF);
+}
 *
 {
     margin:0px;
@@ -20,7 +29,8 @@
     background-size:contain;
     background-repeat:no-repeat;
     background-position: top right;
-    width:100%;
+    width:75vw;
+    margin:0px 12%;
     height:70vh;
     position:absolute;
     top:90%;
@@ -32,7 +42,8 @@ section
 }
 .overlay
 {
-    width:100%;
+    width:75vw;
+    margin:0px 12%;
     height:70vh;
     background:black;
     opacity:.5;
@@ -52,6 +63,7 @@ section
     position:absolute;
     margin:10px;
     top:25%;
+    font-family: homoarak;
 }
 .overlay p
 {
@@ -60,7 +72,7 @@ section
     top:48%;
     font-weight:bolder;
     margin:10px 55px;
-
+    font-family: homoarak;
 }
 .overlay > *
 {
