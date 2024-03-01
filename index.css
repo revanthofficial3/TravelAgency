@@ -29,9 +29,10 @@
     background-size:contain;
     background-repeat:no-repeat;
     background-position: top right;
-    width:75vw;
-    margin:0px 12%;
-    height:70vh;
+    width:60vw;
+    margin:0px 2%;
+    border-radius:50%;
+    height:60vh;
     position:absolute;
     top:90%;
     
@@ -42,9 +43,10 @@ section
 }
 .overlay
 {
-    width:75vw;
-    margin:0px 12%;
-    height:70vh;
+    width:60vw;
+    margin:0px 2%;
+    border-radius:50%;
+    height:60vh;
     background:black;
     opacity:.5;
     display:flex;
