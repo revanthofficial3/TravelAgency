@@ -7,11 +7,22 @@
     font-family:homoarak;
     src:url(./fonts/homoarakhn/HOMOARAK.TTF);
 }
+@font-face
+{
+    font-family:blkcry;
+    src:url(./fonts/BLKCHCRY.TTF);
+}
+@font-face {
+    font-family: damion;
+    src: url(./fonts/damion/Damion-Regular.ttf);
+}
 *
 {
     margin:0px;
     padding:0px;
+    background-color:rgb(245, 239, 231);
 }
+
 .head
 {
     display:flex;
@@ -23,65 +34,143 @@
     height:94px;
    cursor:pointer;
 }
+
+section
+{
+    position: relative;
+}
+
+.banner > *
+{
+    /* grid-template-columns:2fr 1fr; */
+    /* background-color: aqua; */
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    
+    
+}
+.banner > .post
+{
+
+}
+.banner > .statue
+{
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin:5%;
+    position:relative;
+    top:-60px;
+    left:60%;
+    border:2px dotted black;
+    display:inline-block;
+    background-color:rgb(230, 254, 254);
+    border-radius:50%;
+    overflow: hidden;
+    cursor:pointer;
+    transform:scale(.95);
+    transition: .3s;
+    background-color: aqua;
+}
+.statue:hover
+{
+    transform:scale(1);
+}
 .travel
 {
     background-image:url(./images/travel.jpg);
     background-size:contain;
     background-repeat:no-repeat;
     background-position: top right;
-    width:75vw;
-    margin:0px 12%;
-    height:70vh;
+    width:55vw;
+    margin:0px 5%;
+    height:55vh;
     position:absolute;
-    top:90%;
-    
-}
-section
-{
-    position: relative;
+    /* top:27%; */
+    border-radius:30px;
 }
 .overlay
 {
-    width:75vw;
-    margin:0px 12%;
-    height:70vh;
+    border-radius:30px;
+    width:55vw;
+    margin:0px 5%;
+    height:55vh;
     background:black;
-    opacity:.5;
+    opacity:.6;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     position:absolute;
-    top:90%;
-    color:white;
+    /* top:27%; */
+    color:#fff;
     cursor:pointer;
+
 }
+
 .overlay h1
 {
     font-size:3rem;
     font-weight: bolder;
     position:absolute;
     margin:10px;
-    top:25%;
-    font-family: homoarak;
+    top:10%;
+    /* font-family: homoarak; */
 }
 .overlay p
 {
-    font-size:1.5rem;
+    font-size:2rem;
+    word-spacing: 10px;
     position:absolute;
-    top:48%;
+    top:30%;
     font-weight:bolder;
     margin:10px 55px;
-    font-family: homoarak;
+    font-family:blkcry;
+    z-index:-1;
+    background-color: black;
+
 }
 .overlay > *
 {
-    transform:scale(0.9);
-    transition:1s;
+    transform:translatex(0);
+    transition:.5s;
 }
 .overlay:hover > *
 {
-    transform:scale(1);
+    
+    transform:translatex(30px);
+    
+}
+.packagelist
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.triphead
+{
+    font-size: 2rem;
+    font-family:damion;
+    margin:4px;
+    text-align:center;
+}
+.box
+{
+    /* border:1px solid red; */
+    height: 170px;
+    width:100px;
+    margin:30px;
+    font-family:blkcry ;
+    font-size:1.2rem;
+    font-weight:bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
+    transform:scale(.9);
+    transition:.3s;
+}
+.box:hover
+{
+    transform: scale(1);
 }
 
 
