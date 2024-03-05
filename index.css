@@ -82,33 +82,20 @@ section
     background-size:contain;
     background-repeat:no-repeat;
     background-position: top right;
-<<<<<<< HEAD
     width:55vw;
     margin:0px 5%;
     height:55vh;
-=======
-    width:60vw;
-    margin:0px 2%;
-    border-radius:50%;
-    height:60vh;
->>>>>>> 8d2c74422c6b84ff6f2bfecbff6c48b075305589
     position:absolute;
     /* top:27%; */
     border-radius:30px;
 }
 .overlay
 {
-<<<<<<< HEAD
+
     border-radius:30px;
     width:55vw;
     margin:0px 5%;
     height:55vh;
-=======
-    width:60vw;
-    margin:0px 2%;
-    border-radius:50%;
-    height:60vh;
->>>>>>> 8d2c74422c6b84ff6f2bfecbff6c48b075305589
     background:black;
     opacity:.6;
     display:flex;
