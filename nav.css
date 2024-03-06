@@ -7,6 +7,10 @@ ul
     overflow:hidden;
 }
 @font-face {
+    font-family: damion;
+    src: url(./fonts/damion/Damion-Regular.ttf);
+}
+@font-face {
     font-family: arabella;
     src: url(./fonts/arabella/Arabella.ttf);
 }
@@ -20,7 +24,7 @@ ul>li>.nav
     position:relative;
     font-size:1.5rem;
     font-weight:bold;
-    font-family:arabella;
+    font-family:damion;
 }
 .nav::after
 {
