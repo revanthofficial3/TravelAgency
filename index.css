@@ -215,6 +215,64 @@ section
 {
     transform: scale(1);
 }
+.holiday_img_common
+{
+    position:relative;
+}
+.holiday_img
+{
+    height:30vh;
+    width:22vw;
+}
+.holiday_overlay
+{
+    height:30vh;
+    width:22vw;
+    background: black;
+    opacity:.4;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.holiday_head2
+{
+    color:white;
+    background-color: black;
+    font-family:blkcry;
+    font-size:2.3rem;
+    position:absolute;
+   
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+}
+.holiday_price
+{
+    color:white;
+    background-color: black;
+    font-family:blkcry;
+    font-size:2.3rem;
+    position:absolute;
+    top:80%;
+    font-weight:bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width:480px)
 {
 .banner
