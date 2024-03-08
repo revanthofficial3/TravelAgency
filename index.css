@@ -304,13 +304,17 @@ section
     display:flex;
     justify-content: center;
     align-items: center;
+    height:100vh;
+    width:auto;
+    flex-wrap: wrap;
+    
 }
 .customer
 {
    
-    height:50vh;
+    height:34vh;
     width:28vw;
-    margin:30px 15px;
+    margin:34px 15px;
     padding:10px;
     position: relative;
     box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
