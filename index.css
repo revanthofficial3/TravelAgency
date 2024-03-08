@@ -16,11 +16,16 @@
     font-family: damion;
     src: url(./fonts/damion/Damion-Regular.ttf);
 }
+@font-face
+{
+    font-family:maconda;
+    src:url(./fonts/macondo-swash-caps/MacondoSwashCaps-Regular.ttf)
+}
 *
 {
     margin:0px;
     padding:0px;
-    background-color:rgb(245, 239, 231);
+    background-color:#edf6f9;
 }
 
 .head
@@ -185,7 +190,7 @@ section
     font-weight: bold;
     box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
     border:none;
-    background-color:rgb(255, 153, 0);
+    background-color:#006d77;
     font-family: blkcry;
     color:white;
     position:absolute;
@@ -215,51 +220,149 @@ section
 {
     transform: scale(1);
 }
+.holiday_total
+{
+    
+    margin:20px;
+    padding: 10px;
+}
+.eurpoe
+{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin:auto;
+    
+}
+.holiday_head1,.customer_head
+{
+    font-family:blkcry;
+    font-size:2.3rem;
+    text-align: center;
+    margin:12% opx;
+
+}
+.holiday_para
+{
+    font-family:damion;
+    font-size:1.8rem;
+    text-indent:50px;
+    word-spacing: 20px;
+    
+
+}
+.holiday_button
+{
+    display:inline;
+    padding:4px 12px;
+    color:white;
+    background-color: #006d77;
+    border:none;
+    font-family: damion;
+    border-radius: 20%;
+    font-size:1.5rem;
+}
 .holiday_img_common
 {
-    position:relative;
+    box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
+    height:50.5vh;
+    width:20.9vw;
+    margin:20px 20px;
+ 
 }
 .holiday_img
 {
-    height:30vh;
-    width:22vw;
+    height:36vh;
+    width:20vw;
+    border:5px solid #ffd60a;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
-.holiday_overlay
-{
-    height:30vh;
-    width:22vw;
-    background: black;
-    opacity:.4;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    position:absolute;
-    top:0px;
-    left:0px;
-}
+
 .holiday_head2
 {
-    color:white;
-    background-color: black;
     font-family:blkcry;
-    font-size:2.3rem;
-    position:absolute;
-   
+    font-size:1.8rem;
+    font-weight:bolder;
+    display:flex;
     justify-content: center;
     align-items: center;
-    font-weight:bolder;
+    display: flexbox;
+   
 }
 .holiday_price
 {
-    color:white;
-    background-color: black;
     font-family:blkcry;
-    font-size:2.3rem;
-    position:absolute;
-    top:80%;
+    font-size:1.4rem;
     font-weight:bolder;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+ 
 }
+.customer_display
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer
+{
+   
+    height:50vh;
+    width:28vw;
+    margin:30px 15px;
+    padding:10px;
+    position: relative;
+    box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
+    top:60px;
 
+}
+.customer_photo
+{
+    height:18vh;
+    /* width:20vw; */
+    position:absolute;
+    top:-60px;
+    border:4px solid white;
+    box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
+}
+.customer_common
+{
+    position:relative;
+    top:50px;
+}
+.customer_para
+{
+    font-size:1.2rem;
+    font-family:maconda;
+    word-spacing: 3px;
+    font-weight:bold;
+    text-indent:10px;
+    text-align: justify;
+    margin:20px 0px;
+}
+.customer_name
+{
+    font-size:1.5rem;
+    font-family: blkcry;
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.customer_icon
+{
+    height:5vh;
+    width:10vw;
+}
+.customer_image
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
 
 
 
