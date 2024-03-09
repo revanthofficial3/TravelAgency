@@ -40,7 +40,7 @@
    cursor:pointer;
 }
 
-section
+.first_section
 {
     position: relative;
 }
@@ -57,10 +57,7 @@ section
     /* padding-bottom:-400px; */
     margin-left:5%;
 }
-.banner > .post
-{
 
-}
 .statue
 {
     justify-content: flex-end;
@@ -98,6 +95,10 @@ section
     /* top:27%; */
     border-radius:30px;
 
+}
+.post
+{
+    position: relative;
 }
 .overlay
 {
@@ -171,6 +172,7 @@ section
     font-family:damion;
     margin:4px;
     text-align:center;
+    background-color: aqua;
 }
 .box
 {
@@ -223,32 +225,77 @@ section
 .holiday_total
 {
     
-    margin:20px;
+    margin:auto;
     padding: 10px;
+    
+    
 }
+
 .eurpoe
 {
     display:grid;
     grid-template-columns: repeat(4,1fr);
+    /* width:100vh;
+    column-gap: 50px;
+    position:relative;
+    left:10%; */
     margin:auto;
+    width:75%;
+    column-gap:0px;
+    /* background-color: aqua; */
+    /* border:5px solid red;
+    justify-content: center;
+    align-items: center;
+    display:flex; */
+}
+.holiday_img_common
+{
+    box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
+    /* height:50.5vh;
+    width:20.9vw; */
+    margin:20px;
+    height:auto;
+    width:15vw;
     
 }
-.holiday_head1,.customer_head
+.holiday_img
+{
+    /* height:36vh;
+    width:20vw; */
+    height:25vh;
+    /* width:183px; */
+    width:100%;
+    box-sizing: border-box;
+    border:5px solid #ffd60a;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
+
+.customer_head,.holiday_head1 
 {
     font-family:blkcry;
     font-size:2.3rem;
     text-align: center;
-    margin:12% opx;
+    /*margin:12% opx;
+    padding:15px opx; 
+     overflow:auto; 
+    display: inline-block;
+    width:180vh;
+    background-color: aqua;*/
+    
+} 
 
-}
 .holiday_para
 {
     font-family:damion;
     font-size:1.8rem;
     text-indent:50px;
-    word-spacing: 20px;
+    word-spacing: 15px;
+    text-align: justify;
+    width:75%;
+    margin:auto;
     
-
 }
 .holiday_button
 {
@@ -260,22 +307,6 @@ section
     font-family: damion;
     border-radius: 20%;
     font-size:1.5rem;
-}
-.holiday_img_common
-{
-    box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
-    height:50.5vh;
-    width:20.9vw;
-    margin:20px 20px;
- 
-}
-.holiday_img
-{
-    height:36vh;
-    width:20vw;
-    border:5px solid #ffd60a;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
 }
 
 .holiday_head2
@@ -307,16 +338,16 @@ section
     height:100vh;
     width:auto;
     flex-wrap: wrap;
+    margin:20px;
     
 }
 .customer
 {
-   
-    height:34vh;
-    width:28vw;
+    height:auto;
+    width:25vw;
     margin:34px 15px;
     padding:10px;
-    position: relative;
+    position:relative;
     box-shadow: 2px 2px 3px grey,-2px -2px 3px grey;
     top:60px;
 
@@ -343,7 +374,7 @@ section
     font-weight:bold;
     text-indent:10px;
     text-align: justify;
-    margin:20px 0px;
+    margin:20px 0px 50px 0px;
 }
 .customer_name
 {
@@ -394,8 +425,11 @@ section
     /* flex-direction: column;
     justify-content: center;
     align-items: center; */
-    width:90%;
+    width:100%;
+    height:fit-content;
+    margin:auto;
     /* display: inline-block; */
+   
 }
 .statue
 {
@@ -405,14 +439,40 @@ section
     width:50%;
     display: inline-block;
     margin:0px 25%;
+   
 }
-}
-@media all and (max-width:480px)
-{
 .package_list
 {
-    grid-template-columns: auto;
-    display:inline-block;
+    grid-template-columns: 1fr;
+    /* display:inline-block; */
+    display:block;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.package_button1
+{
+    position:relative;
+}
+.eurpoe
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    display:block;
+   
+}
+.holiday_para
+{
+    width:100%;
+}
+.holiday_img_common
+{
+    width:100%;
+    margin:40px auto;
+    
 }
 }
 @media all and (max-width:900px)
