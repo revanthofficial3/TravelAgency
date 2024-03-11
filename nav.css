@@ -71,7 +71,7 @@ ul>li>.nav
 
 
 
-@media all and (min-width:380px)
+@media all and (max-width:480px)
 {
 .head
 {
@@ -102,7 +102,10 @@ ul
 }
 nav
 {
-    
+    font-size:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 ul li
 {
@@ -112,17 +115,14 @@ ul li
     */
     box-sizing: border-box;
     
-    font-size:2rem;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    
     
 }
 }
 
 
 
- @media all and (min-width:800px)
+/* @media all and (max-width:800px)
 {
 .head
 {
@@ -163,13 +163,13 @@ ul li
     /* justify-content:center;
     align-items:center; 
     */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
     
     
-    
+    /*
 }
-}  
-
+}  */
+ 
 
 
 
