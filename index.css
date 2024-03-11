@@ -496,6 +496,12 @@
     justify-content: center;
     align-items: center;
 }
+.icon2
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .icon_div
 {
     margin:20px;
@@ -576,9 +582,17 @@ footer .footer_logo
     text-decoration: none;
     font-size:1rem;
 }
-
-
-
+.footer_i1
+{
+    border-radius: 20%;
+    background-color: #006d77;
+}
+.footer_i2
+{
+    position: relative;
+    bottom:-10px;
+    padding-right:7px;
+}
 
 
 
@@ -694,7 +708,73 @@ footer .footer_logo
 {
     width:fit-content;
 }
+.gallery_common
+{
+    /* display:grid;
+    grid-template-columns: 1fr;
+    height:auto;
+    width:auto; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.icon_aside
+{
+    flex-direction: column;
+    position: relative;
+}
+.icon_overlay
+{
+    
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:100%;
+}
+.icon1
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   margin:3%;
+}
+.icon2
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:3%;
+}
+.icon_para
+{
+    position:relative;
+    left:0%;
+    
+}
+.footer_common
+{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media all and (min-width:800px)
 {
 .banner
