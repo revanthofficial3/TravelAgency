@@ -514,85 +514,86 @@
     position:relative;
     left:-40px;
 }
-footer
-{
-   background-color: #006d77;
-    width:100%;
-    height:80vh;
-    position: relative;
-}
-footer .footer_logo
+footer 
 {
     background-color: #006d77;
-    display:inline-block;
-    position: absolute;
+    /* color: white; */
     
+    position: relative;
+    
+}
+.footer_logo
+{
+    background-color:#006d77;
+    position:absolute;
+    top:0px;
+    left:0px;
 }
 .footer_common
-{ 
+{
     display:grid;
-    grid-template-columns:1fr 1.3fr 1fr 1fr;
-
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
     background-color: #006d77;
-    padding:10%;
-    /* position: absolute; */
+    width:100%;
+    height:100%;
+    padding:8% 0px 3% 5%;
+    
 }
-.footer_tag,.footer_r
+.footer_div
 {
     background-color: #006d77;
-    margin:10px;
 }
-.footer_tag a
+.footer_ul
 {
-    color:white;
-    font-size:1.4rem;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #006d77;
+}
+.footer_head
+{
+    background-color: #006d77;
+    color: #ffd60a;
+}
+.footer_ul li
+{
+    background-color: white;
+    display:inline-block;
+    list-style: none;
+   
+}
+.footer_ol
+{
+    display:block;
+    background-color: #006d77;
+    list-style-type:none;
+} 
+.footer_ol li
+{
+    background-color: #006d77;
+}
+.footer_ol li a,.footer_address
+{
     background-color: #006d77;
     text-decoration: none;
-    padding: 6px;
-    
+    color:white;
+    font-size:1rem;
+    font-weight: bold;
+}
+.footer_li1
+{
+    background-color: #006d77;
+}
+.footer_address>*
+{
+    background-color: #006d77;
+}
+.footer_tag
+{
+    background-color: #006d77;
 }
 .footer_icon
 {
-    grid-row:span 3;
-}
-.footer_color
-{
-    color:#ffd60a;
-    font-size:1.4rem;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #006d77;
-    text-decoration: none;
-    padding: 6px;
-    
-}
-.footer_foot
-{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer_last
-{
-    
-    display:inline;
-}
-.footer_bottom
-{
-    text-decoration: none;
-    font-size:1rem;
-}
-.footer_i1
-{
-    border-radius: 20%;
     background-color: #006d77;
 }
-.footer_i2
-{
-    position: relative;
-    bottom:-10px;
-    padding-right:7px;
-}
+
 
 
 
@@ -756,7 +757,13 @@ footer .footer_logo
 .footer_common
 {
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
+    display:inline-table;
+
+    grid-auto-flow: dense;
+
+
 }
 
 }
