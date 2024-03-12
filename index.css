@@ -534,10 +534,11 @@ footer
     display:grid;
     grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
     background-color: #006d77;
-    width:100%;
+    width:auto;
     height:100%;
-    padding:8% 0px 3% 5%;
+    padding:8% 0px 3% 3%;
     
+    margin:auto;
 }
 .footer_div
 {
@@ -551,6 +552,7 @@ footer
 {
     background-color: #006d77;
     color: #ffd60a;
+    padding:10px;
 }
 .footer_ul li
 {
@@ -558,6 +560,12 @@ footer
     display:inline-block;
     list-style: none;
    
+}
+.footer_i1
+{
+    position:relative;
+    top:7px;
+    padding:5px;
 }
 .footer_ol
 {
@@ -574,8 +582,14 @@ footer
     background-color: #006d77;
     text-decoration: none;
     color:white;
-    font-size:1rem;
+    font-size:1.2rem;
     font-weight: bold;
+    margin:10px;
+}
+.footer_ol li a:hover
+{
+    color:rgb(137, 195, 237);
+    padding-left:3px;
 }
 .footer_li1
 {
@@ -592,6 +606,17 @@ footer
 .footer_icon
 {
     background-color: #006d77;
+}
+.footer_foot
+{
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+.footer_last1 a
+{
+     text-decoration: none;
+     font-weight: bold;
 }
 
 
@@ -757,13 +782,8 @@ footer
 .footer_common
 {
     display:grid;
-    grid-template-columns: max-content;
-    grid-template-rows: auto;
-    display:inline-table;
-
-    grid-auto-flow: dense;
-
-
+    grid-template-columns: 1fr;
+    padding-top: 25%;
 }
 
 }
@@ -782,7 +802,7 @@ footer
 
 
 
-/* @media all and (min-width:800px)
+@media all and (min-width:800px)
 {
 .banner
 {
@@ -818,7 +838,7 @@ footer
     /* flex-direction: column;
     justify-content: center;
     align-items: center; */
-    /*width:50%;
+    width:50%;
     display: inline-block;
     margin:0px 25%;
    
@@ -827,12 +847,13 @@ footer
 {
     grid-template-columns: 1fr 1fr;
     /* display:inline-block; */
-/*    display:block;
+    /* display:block; */
     margin:auto;
-    display: flex;
+    padding: auto;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     
 }
 .package_button1
@@ -871,7 +892,7 @@ footer
     width:fit-content;
 }
 }
- */
+
 
 
 
