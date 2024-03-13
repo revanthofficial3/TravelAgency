@@ -615,7 +615,7 @@ footer
 {
     background-color: #006d77;
 }
-.footer_tag
+.footer_tag,.footer_icon
 {
     background-color: #006d77;
 }
@@ -819,7 +819,7 @@ footer
 
 
 
-@media all and (min-width:750px) and (max-width:1000px)
+@media all and (min-width:750px)
 {
 .banner
 {
