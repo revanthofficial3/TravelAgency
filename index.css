@@ -168,7 +168,7 @@
     font-family:damion;
     margin:4px;
     text-align:center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .box
 {
@@ -564,8 +564,23 @@ footer
 .footer_i1
 {
     position:relative;
-    top:7px;
+    top:14px;
     padding:5px;
+
+}
+.footer_i2
+{
+    background-color: #006d77;
+    border-radius: 14px;
+    padding:5px;
+    transform: scale(0.9);
+    transition: .3s;
+    width:30px;
+    cursor: pointer;
+}
+.footer_i2:hover
+{
+    transform:scale(1);
 }
 .footer_ol
 {
@@ -588,12 +603,13 @@ footer
 }
 .footer_ol li a:hover
 {
-    color:rgb(137, 195, 237);
+    color:rgb(21, 236, 53);
     padding-left:3px;
 }
 .footer_li1
 {
     background-color: #006d77;
+    
 }
 .footer_address>*
 {
@@ -603,10 +619,11 @@ footer
 {
     background-color: #006d77;
 }
-.footer_icon
+.footer_icon span
 {
     background-color: #006d77;
 }
+
 .footer_foot
 {
     display:flex;
@@ -802,7 +819,7 @@ footer
 
 
 
-@media all and (min-width:800px)
+@media all and (min-width:750px) and (max-width:1000px)
 {
 .banner
 {
@@ -845,16 +862,13 @@ footer
 }
 .package_list
 {
+    display:grid;
     grid-template-columns: 1fr 1fr;
-    /* display:inline-block; */
-    /* display:block; */
-    margin:auto;
-    padding: auto;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     
+}
+.package_common
+{
+    margin-left:7%;
 }
 .package_button1
 {
@@ -864,8 +878,6 @@ footer
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    display:block;
-   
 }
 .holiday_para
 {
@@ -873,9 +885,13 @@ footer
 }
 .holiday_img_common
 {
-    width:100%;
-    margin:40px auto;
-    
+    width:80%;
+    /* margin:20px; */
+    height:auto;
+}
+.holiday_para
+{
+    font-size:2rem;
 }
 .customer_display
 {
@@ -884,15 +900,67 @@ footer
 .customer
 {
     flex-direction: row;
-    width:80%;
-    margin:50px 30px;
+    width:95%;
+    height: auto;
+    /* margin:50px 30px; */
+    margin-bottom: 80px;
+    padding-bottom:50px;
+}
+.customer_common
+{
+    /* height:100%; */
+    top:100px;
 }
 .customer_icon
 {
     width:fit-content;
 }
+.customer_para
+{
+    font-size:2rem;
 }
-
+.gallery_common
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icon_head
+{
+    font-size: 2.5rem;
+}
+.icon1
+{
+    margin-left:110px;
+    
+}
+.icon2
+{
+    margin-left:110px; 
+}
+.icon_para
+{
+    font-size:2rem;
+}
+.footer
+{
+    
+}
+.footer_common
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 110px;
+}
+.footer_head
+{
+    font-size:2.3rem;
+}
+.footer_ol li a,.footer_address,.footer_bottom1
+{
+    font-size:1.7rem;
+}
+}
+ 
 
 
 
