@@ -1,0 +1,119 @@
+@font-face {
+    font-family: barqish;
+    src: url(./fonts/Barqish.ttf);
+}
+@font-face
+{
+    font-family:homoarak;
+    src:url(./fonts/homoarakhn/HOMOARAK.TTF);
+}
+@font-face
+{
+    font-family:blkcry;
+    src:url(./fonts/BLKCHCRY.TTF);
+}
+@font-face {
+    font-family: damion;
+    src: url(./fonts/damion/Damion-Regular.ttf);
+}
+@font-face
+{
+    font-family:maconda;
+    src:url(./fonts/macondo-swash-caps/MacondoSwashCaps-Regular.ttf)
+}
+@font-face
+{
+    font-family:dancingscript;
+    src:url(./fonts/DancingScript-Regular.ttf)
+}
+@font-face
+{
+    font-family:belico;
+    src:url(./fonts/Bellico/Bellico\ Demo\ Version.ttf)
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    background-color:#edf6f9;
+}
+.cookies_banner
+{
+    height:70vh;
+    width:100%;
+    position: relative;
+} 
+
+.cookies_banner_img
+{
+    height: 100%;
+    width: 100%;
+}
+.cookies_banner_head
+{
+    position:absolute;
+    top:30%;
+    left:45%;
+    font-size:2.7rem;
+    font-family: blkcry;
+    color:white;
+    background-color: rgba(12, 8, 8, 0);
+}
+.cookies_head1
+{
+    font-family:blkcry;
+    font-size:2.5rem;
+    font-weight: bold;
+    color:rgb(19, 145, 55);
+    text-align: center;
+    margin:10px 15%;
+    word-spacing: 8px;
+}
+.cookies_para
+{
+    font-family:dancingscript;
+    font-size:1.7rem;
+    font-weight:bold;
+    word-spacing: 8px;
+    margin:20px 13%;
+    text-indent: 100px;
+    text-align: justify;
+}
+.cookies_list
+{
+    font-family:dancingscript;
+    font-size:1.6rem;
+    font-weight:bold;
+    word-spacing: 8px;
+    margin:20px 17%;
+    text-align: justify;
+    list-style: disc;
+
+}
+
+
+@media all and (max-width:480px)
+{
+.cookies_banner_head 
+{
+    position: absolute;
+    left:20%;
+}
+.cookies_head1
+{
+    font-size:2.6rem;
+}
+}
+@media all and (min-width:750px) and (max-width:1000px)
+{
+.cookies_banner_head 
+{
+    position: absolute;
+    left:35%;
+    
+}  
+.cookies_head1
+{
+    font-size:3rem;
+} 
+}

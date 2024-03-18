@@ -66,3 +66,31 @@
     margin:10px 13%;
     text-indent: 30px;
 }
+
+@media all and (max-width:480px)
+{
+.faq_banner_head
+{
+    position: absolute;
+    left:33%;
+}  
+    .faq_head2
+    {
+        font-size:1.7rem;
+    }
+    .faq_para
+    {
+        font-size:1.8rem;
+    }
+}
+@media all and (min-width:750px) and (max-width:1000px)
+{
+.faq_head2
+{
+    font-size:1.7rem;
+}
+.faq_para
+{
+    font-size:1.8rem;
+}
+}
