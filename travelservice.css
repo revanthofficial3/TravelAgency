@@ -1,0 +1,307 @@
+@font-face {
+    font-family: barqish;
+    src: url(./fonts/Barqish.ttf);
+}
+@font-face
+{
+    font-family:homoarak;
+    src:url(./fonts/homoarakhn/HOMOARAK.TTF);
+}
+@font-face
+{
+    font-family:blkcry;
+    src:url(./fonts/BLKCHCRY.TTF);
+}
+@font-face {
+    font-family: damion;
+    src: url(./fonts/damion/Damion-Regular.ttf);
+}
+@font-face
+{
+    font-family:maconda;
+    src:url(./fonts/macondo-swash-caps/MacondoSwashCaps-Regular.ttf)
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+    background-color:#edf6f9;
+}
+.travelservice_banner
+{
+    height:70vh;
+    width:100%;
+    position: relative;
+} 
+/* .opacity
+{
+    background: rgba(3, 172, 240, .5);
+   
+} */
+.travelservice_banner_img
+{
+    height: 100%;
+    width: 100%;
+    
+}
+.travelservice_banner_head
+{
+    position:absolute;
+    top:50%;
+    left:40%;
+    font-size:2.7rem;
+    font-family: blkcry;
+    color:black;
+    background-color: rgba(0, 0, 0, .0);
+}
+.visa_common
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    margin:10px 10%; 
+    
+}
+.flag_common 
+{
+    /* border:2px solid red; */
+    height:auto;
+    width:auto;
+    padding:20px 30px 20px 80px;
+    
+    box-shadow: 4px 4px 10px grey,-6px -6px 10px grey;
+}
+.visa_head
+{
+    
+    font-size:2.7rem;
+    font-family: blkcry;
+    text-align: center;
+    margin-top:15px;
+}
+.flag_head
+{
+    font-family:damion;
+    font-size:2.3rem;
+    text-align: center;
+    margin:10px auto;
+} 
+.flag_head2
+{
+    font-family:damion;
+    font-size:2rem;
+}
+.flag_para
+{
+    font-family:damion;
+    font-size:1.8rem;
+    text-transform: capitalize;
+    word-spacing: 5px;
+     text-align: justify;
+    list-style:decimal-leading-zero;
+    
+}
+.flag_para1
+{
+    font-family:damion;
+    font-size:1.5rem;
+    word-spacing: 5px;
+    text-transform: capitalize;
+}
+.flag_img_common
+{
+    width:200px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+.flag_img
+{
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    /* position: relative;
+    left:50%; */
+    
+}
+.european_common
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    padding-left:80px;
+    padding-right: 80px;
+}
+.european_para
+{
+    font-family:damion;
+    font-size:1.8rem;
+    word-spacing: 4px;
+     text-align: justify;
+    list-style:decimal-leading-zero;
+}
+.bus_common
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left:7%;
+    margin-right:auto;
+    gap:20px;
+}
+
+.travel_bus_common
+{
+    /* height: 250px; */
+    height:auto;
+    width: 310px;
+    border: none;
+    /* margin:20px; */
+}
+.travel_bus_img_common
+{
+    width:auto;
+    height:auto;
+    box-shadow: 2px 3px 4px grey,-2px -3px 4px grey;
+}
+.travel_bus_img
+{
+    width:100%;
+    height:100%;
+}
+/* .travel_head1
+{
+    
+    font-size:2.7rem;
+    font-family: blkcry;
+    text-align: center;
+    margin-top:50px;
+
+} */
+.travel_head1
+{
+    font-family:barqish;
+    font-size:2.3rem;
+    text-align: center;
+    margin:30px auto;
+} 
+.travel_head2
+{
+    font-family:damion;
+    font-size:2rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+}
+.travel_para_common
+{
+    margin-top:10px;
+}
+.travel_para
+{
+    font-family:homoarak;
+    font-size:1.5rem;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media all and (max-width:480px)
+{
+.travelservice_banner_head
+{
+    position: absolute;
+    top:40%;
+    left:15%;
+}
+.flag_head
+{
+    text-align: center;
+}
+.visa_common
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    /* margin-left:5%;
+    margin-right:auto; */
+    /* margin:10px auto 10px 20%;  */
+    margin: auto;
+}
+.flag_common 
+{
+    height:auto;
+    width:50%;
+    padding-left:15%;
+    margin: auto;
+}
+.bus_common
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left:10%;
+    margin-right:auto;
+    gap:20px;
+}
+.european_common
+{
+    width:40%;
+    /* margin-left: 3%;
+    margin-right: auto; */
+    overflow: hidden;
+    margin:auto;
+    padding: auto;
+}
+}
+
+
+@media all and (min-width:750px) and (max-width:1000px)
+{
+.travelservice_banner_head
+{
+    position: absolute;
+    top:40%;
+    left:15%;
+}
+.flag_head
+{
+    text-align: center;
+}
+.visa_common
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    /* margin-left:5%;
+    margin-right:auto; */
+    /* margin:10px auto 10px 20%;  */
+    margin: auto;
+}
+.flag_common 
+{
+    height:auto;
+    width:50%;
+    padding-left:15%;
+    margin: auto;
+}
+.bus_common
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:10%;
+    margin-right:auto;
+    gap:20px;
+}
+.european_common
+{
+    width:40%;
+    /* margin-left: 3%;
+    margin-right: auto; */
+    overflow: hidden;
+    margin:auto;
+    padding: auto;
+}
+}
