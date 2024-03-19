@@ -121,7 +121,52 @@
     text-indent: 30px;
 }
 
-
+@media all and (max-width:480px)
+{
+.team_banner_head
+{
+    font-size: 3rem;
+    position:absolute;
+    top:35%;
+    left:25%;
+}
+.team_common,.team_common1
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:20px 10%;
+}
+}
+@media all and (min-width:750px) and (max-width:1000px)
+{
+.team_banner_head
+{
+    font-size: 3.5rem;
+    position:absolute;
+    top:35%;
+    left:35%;
+}
+.team_common
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:20px 10%;
+}
+.team_common1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:20px 10%;
+}
+.team_head1,.team_head2,.team_head3
+{
+    font-size:2.5rem;
+}
+.team_para
+{
+    font-size:2rem;
+}
+}
 
 
 
