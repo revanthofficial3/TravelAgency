@@ -40,7 +40,9 @@
 .terms_banner
 {
     height:70vh;
-    width:100%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 } 
 
@@ -48,6 +50,7 @@
 {
     height: 100%;
     width: 100%;
+    border-radius: 5px;
 }
 .terms_banner_head
 {

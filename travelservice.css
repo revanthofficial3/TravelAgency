@@ -30,18 +30,17 @@
 .travelservice_banner
 {
     height:70vh;
-    width:100%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 } 
-/* .opacity
-{
-    background: rgba(3, 172, 240, .5);
-   
-} */
+
 .travelservice_banner_img
 {
     height: 100%;
     width: 100%;
+    border-radius: 5px;
     
 }
 .travelservice_banner_head
@@ -64,7 +63,7 @@
 }
 .flag_common 
 {
-    /* border:2px solid red; */
+    
     height:auto;
     width:auto;
     padding:20px 30px 20px 80px;
@@ -121,8 +120,7 @@
     height:100%;
     width:100%;
     border-radius: 10px;
-    /* position: relative;
-    left:50%; */
+    
     
 }
 .european_common
@@ -152,11 +150,11 @@
 
 .travel_bus_common
 {
-    /* height: 250px; */
+  
     height:auto;
     width: 310px;
     border: none;
-    /* margin:20px; */
+    
 }
 .travel_bus_img_common
 {
@@ -169,15 +167,7 @@
     width:100%;
     height:100%;
 }
-/* .travel_head1
-{
-    
-    font-size:2.7rem;
-    font-family: blkcry;
-    text-align: center;
-    margin-top:50px;
 
-} */
 .travel_head1
 {
     font-family:barqish;
@@ -189,8 +179,7 @@
 {
     font-family:damion;
     font-size:2rem;
-    /* margin-left: auto;
-    margin-right: auto; */
+    
     text-align: center;
 }
 .travel_para_common
@@ -227,9 +216,6 @@
 {
     display:grid;
     grid-template-columns: 1fr;
-    /* margin-left:5%;
-    margin-right:auto; */
-    /* margin:10px auto 10px 20%;  */
     margin: auto;
 }
 .flag_common 
@@ -250,8 +236,6 @@
 .european_common
 {
     width:40%;
-    /* margin-left: 3%;
-    margin-right: auto; */
     overflow: hidden;
     margin:auto;
     padding: auto;
@@ -275,9 +259,6 @@
 {
     display:grid;
     grid-template-columns: 1fr;
-    /* margin-left:5%;
-    margin-right:auto; */
-    /* margin:10px auto 10px 20%;  */
     margin: auto;
 }
 .flag_common 
@@ -298,8 +279,6 @@
 .european_common
 {
     width:40%;
-    /* margin-left: 3%;
-    margin-right: auto; */
     overflow: hidden;
     margin:auto;
     padding: auto;
